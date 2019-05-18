@@ -9,7 +9,7 @@ public class Main {
         student.setId(1);
         student.setBirthday("!");
         student.setName(null);
-        student.setTelephone("15858293092");
+        student.setTelephone("10000000000");
         String errorInfo = filedChecker.checkAndGetErrorInfo(student);
         if (errorInfo == null) {
             System.out.println("完全正确");
